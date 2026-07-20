@@ -1,0 +1,108 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    {
+      "type": "custom",
+      "format":  "╭────────────────────────────╮",
+	//"keyColor": "#f2a516"
+	"outputColor": "#f2a516"
+    },
+    {
+      "type": "custom",
+      "format": "│       ARCH  HYPRLAND       │",
+	"outputColor": "#f2a516"
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────────────────────╯",
+	"outputColor": "#f2a516"
+    },
+    {
+      "type": "break"
+    },
+
+
+	{
+	"type": "cpu",
+	"key": "󰒋 CPU",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "gpu",
+	"key": "󰍛 GPU",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "memory",
+	"key": " Memory",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "disk",
+	"key": " Disk",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "battery",
+	"key": "󰁹 Battery",
+	"keyColor": "#B28CFF"
+	},	
+	
+	{
+	"type": "kernel",
+	"key": "Kernel",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "uptime",
+	"key": "Uptime",
+	"keyColor": "#B28CFF"
+	},
+
+	{
+	"type": "packages",
+	"key": "Packages",
+	"keyColor": "#B28CFF"
+	},
+
+
+    //"title",
+    //"separator",
+    //"os",
+    //"host",
+    	//+"kernel",
+    	//+"uptime",
+    	//+"packages",
+    //"shell",
+    //"display",
+    //"de",
+    //"wm",
+    //"wmtheme",
+    //"theme",
+    //"icons",
+    //"font",
+    //"cursor",
+    //"terminal",
+    //"terminalfont",
+    	//"cpu",
+    	//"gpu",
+    	//"memory",
+    //"swap",
+    	//"disk",
+    //"localip",
+    	//"battery", 
+	//"poweradapter",
+    //"locale",
+    //"break",
+    //"colors",
+    //"outputColor": "#f21616", 
+ ],
+  "logo": {
+    "source": "~/.config/fastfetch/bild.txt"
+  }
+}
